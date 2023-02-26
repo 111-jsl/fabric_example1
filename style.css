@@ -1,0 +1,64 @@
+.background {
+    background-image: linear-gradient(#ba0000, #440606);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #0a32628e;
+
+    padding: 0;
+    margin: 0;
+}
+
+.side_bar {
+    background-image: linear-gradient(#e2b50f, #fdff90);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+
+    width: 5vw;
+    height: 100vh;
+
+    float: left;
+}
+
+
+
+.right_bar {
+    background-image:none;
+    background-color:rgb(50, 50, 100);
+    width:90vw;
+    float:none;
+}
+
+.semi_circle {
+    border-style: dotted dotted none none;
+    border-width: 20px;
+    border-color: #9198e5;
+    border-radius: 0% 100% 0% 0%;
+
+    background: radial-gradient(circle at 100px 50px, transparent 20px, #00adb5 0) top left/100px 100% no-repeat;
+
+
+
+    margin: 0;
+    padding: 0;
+
+    width: 70vw;
+    height: 100vh;
+
+    float: left;
+
+}
+
+
+
+#grad1 {
+    height: 200px;
+  background-color: red; /* 浏览器不支持时显示 */
+    background-image: linear-gradient(#e66465, #9198e5);
+}
